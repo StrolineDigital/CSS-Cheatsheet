@@ -1,0 +1,253 @@
+body {
+    padding-bottom: 50px;
+    background-color: black;
+    color:hotpink;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: -30px;
+    margin-right:-50px;
+    overflow-x: hidden;
+}
+
+header {
+    text-align: center;
+    margin-left: 230px;
+    clear: both;
+}
+
+#intro {
+    color: white;
+    font-weight: 100;
+    width: 80%;
+    text-align: center;
+}
+    
+
+#title {
+    font-size: 40px;
+    margin-left: -230px;
+    text-align: center;
+
+}
+
+#box1
+{
+    margin-left: 100px;
+    margin-right: 0 auto;
+    width: 240px;
+    height: 240px;
+    border-style: dashed;
+    border-color: gray;
+    border-width: 2px;
+    text-align: center;
+  }
+
+  .code {
+    text-align: left;
+    width: 220px;
+    padding-top: 15px;
+    margin-bottom: -30px;
+    color: white;
+    width: auto;
+    float: left;
+    display: block;
+    padding-left:0;
+    clear: both;
+  }
+    
+    .gradient {
+    width: 224px;
+    height: auto;
+    background-image: 
+    linear-gradient(
+    rgba(232, 102, 236, 0.3) 0%,
+    rgba(232, 102, 236, 0.6) 100%
+    );
+    margin:0 auto;
+    display: block;
+    border-radius: 10px;
+    padding-top: 50px;
+    transition: all 0.5s ease-in-out;
+    
+    }
+  
+
+   .box-header {
+    text-align: left;
+    margin-left: 110px;
+    border-style: solid;
+    border-color: gray;
+    border-width: 2px;
+    width: 220px;
+    position: relative;
+    margin-bottom: -20px;
+    background: black;
+    border-radius: 7px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .description {
+    font-size: 12px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    text-align: left;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+.box-unit {
+    scale: 150%;
+    margin-left: 100px;
+    margin-top:100px;
+    float: left;
+    margin-bottom: 70px;
+    border-radius: 8px;
+    transition: all 0.5s ease-in-out;
+}
+
+.row  { 
+    margin-right: auto;
+  width: 100%;
+  overflow: auto;
+  display: flex;
+  flex-wrap: wrap;
+   border-collapse: separate;
+    border-spacing: 0 1em;   
+}
+
+.box-unit2 {
+    scale: 150%;
+    height: 300px;
+    margin-left: 100px;
+    margin-top:100px;
+    float: left;
+    margin-bottom:-40px;
+    border-radius: 8px;
+        transition: all 0.5s ease-in-
+        out;
+}
+
+#footer {
+   
+   margin-top: 100px;
+   margin-left: 50px;
+   width: 100%;
+    height: 50px; 
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ 
+ #gradient1 {
+    height:120px;
+    margin-bottom: 50px;
+    margin-top: -40px;
+ }
+
+ #gradient2 {
+    height:135px;
+    margin-bottom: 50px;
+    margin-top: -40px;
+ }
+
+ #gradient3 {
+    height:135px;
+    margin-bottom: 50px;
+    margin-top: -40px;
+ }
+
+ #gradient4 {
+    height:122px;
+    margin-bottom: 50px;
+    margin-top: -40px;
+ }
+
+ #gradient5 {
+    height:122px;
+    margin-bottom: 50px;
+    margin-top: -40px;
+ }
+
+ #gradient6 {
+    height:110px;
+    margin-bottom: 50px;
+    margin-top: -40px;
+ }
+
+ #code1 {
+    margin-top: -70px;
+    margin-left: 10px;
+ }
+
+
+ .type2 {
+    height:150px;
+}
+
+#gradient-code {
+    margin-left: 10px;
+    margin-top: -70px;
+  }
+
+#glow-code {
+    margin-left: 0px;
+    margin-top: -70px;
+
+}
+
+#overlay-code {
+    margin-left: 10px;
+    margin-top: -70px;
+}
+
+#grid-code {
+    margin-left: 10px;
+    margin-top: -70px;
+}
+
+#column-code {
+    margin-left: 10px;
+    margin-top: -70px;
+}
+
+#overlay-box {
+    padding-bottom:50px;
+}
+        
+.box-header:hover,  .gradient:hover {
+box-shadow: 0px 0px 10px hotpink;
+}
+        
+.rows 
+{
+display:flex;
+flex-flow: row wrap;
+flex: 1;
+overflow:auto;
+}
+
+.row2 {
+ padding-top: 50px;
+}
+
+#gradient-box {
+padding-bottom: 50px;
+}
+
+#glow-box {
+padding-bottom: 50px;
+}
+
+   
+
+    
+.select-all-text {
+user-select: all;
+}
+
+::selection {
+background: turquoise;
+}
