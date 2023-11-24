@@ -3,8 +3,8 @@ body {
     background-color: black;
     color:hotpink;
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: -30px;
-    margin-right:-50px;
+    margin-left: -60px;
+    margin-right:-200px;
     overflow-x: hidden;
 }
 
@@ -13,6 +13,13 @@ header {
     margin-left: 230px;
     clear: both;
 }
+
+@media screen and (max-width: 600px) {
+    header {
+      float: none;
+      display: block;
+      text-align: left;
+    }}
 
 #intro {
     color: white;
